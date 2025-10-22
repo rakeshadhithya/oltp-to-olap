@@ -3,14 +3,14 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 oltp_config = {
-    'host' : '35.222.34.151',
+    'host' : '',                  #removed for security, as this is public repository
     'user' : 'team3',
     'password' : 't3ssss_DP',
     'database' : 'OLTP'
 }
 
 olap_config = {
-    'host' : '35.222.34.151',
+    'host' : '',                 #removed for security, as this is public repository
     'user' : 'team3',
     'password' : 't3ssss_DP',
     'database' : 'Team3'
