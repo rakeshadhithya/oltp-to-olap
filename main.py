@@ -1,7 +1,7 @@
 import mysql.connector as msc
 import pandas as pd
 from sqlalchemy import create_engine
-
+ 
 oltp_config = {
     'host': '35.222.34.151',
     'user': 'team3',
